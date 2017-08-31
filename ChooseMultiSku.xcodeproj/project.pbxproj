@@ -1,0 +1,434 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CB4509091F56CDF0008FF0A4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CB4509081F56CDF0008FF0A4 /* main.m */; };
+		CB45090C1F56CDF0008FF0A4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CB45090B1F56CDF0008FF0A4 /* AppDelegate.m */; };
+		CB45090F1F56CDF0008FF0A4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB45090E1F56CDF0008FF0A4 /* ViewController.m */; };
+		CB4509121F56CDF0008FF0A4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB4509101F56CDF0008FF0A4 /* Main.storyboard */; };
+		CB4509141F56CDF0008FF0A4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB4509131F56CDF0008FF0A4 /* Assets.xcassets */; };
+		CB4509171F56CDF0008FF0A4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB4509151F56CDF0008FF0A4 /* LaunchScreen.storyboard */; };
+		CB4509251F56CE5F008FF0A4 /* AMDSupplierProductModel.m in Sources */ = {isa = PBXBuildFile; fileRef = CB4509241F56CE5F008FF0A4 /* AMDSupplierProductModel.m */; };
+		CB4509281F56CEE2008FF0A4 /* AMDSupplySkuModel.m in Sources */ = {isa = PBXBuildFile; fileRef = CB4509271F56CEE2008FF0A4 /* AMDSupplySkuModel.m */; };
+		CB45092B1F56D097008FF0A4 /* AMDChooseSkuView.m in Sources */ = {isa = PBXBuildFile; fileRef = CB45092A1F56D096008FF0A4 /* AMDChooseSkuView.m */; };
+		CB4BD5261F57AE5B004EA23C /* HiraginoSansGBW3.otf in Resources */ = {isa = PBXBuildFile; fileRef = CB4BD5251F57AE5B004EA23C /* HiraginoSansGBW3.otf */; };
+		DC501E4D82FAC11A9FD8490E /* Pods_ChooseMultiSku.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6545DC631E9DC40170795FD8 /* Pods_ChooseMultiSku.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1D447BD253A1558E7A7DF283 /* Pods-ChooseMultiSku.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChooseMultiSku.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ChooseMultiSku/Pods-ChooseMultiSku.debug.xcconfig"; sourceTree = "<group>"; };
+		6545DC631E9DC40170795FD8 /* Pods_ChooseMultiSku.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ChooseMultiSku.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8FB2347A51A3202A1D1137E1 /* Pods-ChooseMultiSku.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChooseMultiSku.release.xcconfig"; path = "Pods/Target Support Files/Pods-ChooseMultiSku/Pods-ChooseMultiSku.release.xcconfig"; sourceTree = "<group>"; };
+		CB4509041F56CDF0008FF0A4 /* ChooseMultiSku.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChooseMultiSku.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB4509081F56CDF0008FF0A4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CB45090A1F56CDF0008FF0A4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CB45090B1F56CDF0008FF0A4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CB45090D1F56CDF0008FF0A4 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CB45090E1F56CDF0008FF0A4 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CB4509111F56CDF0008FF0A4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CB4509131F56CDF0008FF0A4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CB4509161F56CDF0008FF0A4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CB4509181F56CDF0008FF0A4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CB4509231F56CE5F008FF0A4 /* AMDSupplierProductModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMDSupplierProductModel.h; sourceTree = "<group>"; };
+		CB4509241F56CE5F008FF0A4 /* AMDSupplierProductModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AMDSupplierProductModel.m; sourceTree = "<group>"; };
+		CB4509261F56CEE1008FF0A4 /* AMDSupplySkuModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMDSupplySkuModel.h; sourceTree = "<group>"; };
+		CB4509271F56CEE2008FF0A4 /* AMDSupplySkuModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AMDSupplySkuModel.m; sourceTree = "<group>"; };
+		CB4509291F56D096008FF0A4 /* AMDChooseSkuView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMDChooseSkuView.h; sourceTree = "<group>"; };
+		CB45092A1F56D096008FF0A4 /* AMDChooseSkuView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AMDChooseSkuView.m; sourceTree = "<group>"; };
+		CB4BD5251F57AE5B004EA23C /* HiraginoSansGBW3.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = HiraginoSansGBW3.otf; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CB4509011F56CDF0008FF0A4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC501E4D82FAC11A9FD8490E /* Pods_ChooseMultiSku.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B79B6F90F89E7D12F12580F0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6545DC631E9DC40170795FD8 /* Pods_ChooseMultiSku.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CB4508FB1F56CDF0008FF0A4 = {
+			isa = PBXGroup;
+			children = (
+				CB4509061F56CDF0008FF0A4 /* ChooseMultiSku */,
+				CB4509051F56CDF0008FF0A4 /* Products */,
+				EC344BDC2FB46D37929934B6 /* Pods */,
+				B79B6F90F89E7D12F12580F0 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		CB4509051F56CDF0008FF0A4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CB4509041F56CDF0008FF0A4 /* ChooseMultiSku.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CB4509061F56CDF0008FF0A4 /* ChooseMultiSku */ = {
+			isa = PBXGroup;
+			children = (
+				CB4509211F56CE57008FF0A4 /* Model */,
+				CB4509221F56CE57008FF0A4 /* Utility */,
+				CB45090A1F56CDF0008FF0A4 /* AppDelegate.h */,
+				CB45090B1F56CDF0008FF0A4 /* AppDelegate.m */,
+				CB45090D1F56CDF0008FF0A4 /* ViewController.h */,
+				CB45090E1F56CDF0008FF0A4 /* ViewController.m */,
+				CB4509101F56CDF0008FF0A4 /* Main.storyboard */,
+				CB4509131F56CDF0008FF0A4 /* Assets.xcassets */,
+				CB4509151F56CDF0008FF0A4 /* LaunchScreen.storyboard */,
+				CB4509181F56CDF0008FF0A4 /* Info.plist */,
+				CB4509071F56CDF0008FF0A4 /* Supporting Files */,
+			);
+			path = ChooseMultiSku;
+			sourceTree = "<group>";
+		};
+		CB4509071F56CDF0008FF0A4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CB4BD5251F57AE5B004EA23C /* HiraginoSansGBW3.otf */,
+				CB4509081F56CDF0008FF0A4 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CB4509211F56CE57008FF0A4 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				CB4509261F56CEE1008FF0A4 /* AMDSupplySkuModel.h */,
+				CB4509271F56CEE2008FF0A4 /* AMDSupplySkuModel.m */,
+				CB4509231F56CE5F008FF0A4 /* AMDSupplierProductModel.h */,
+				CB4509241F56CE5F008FF0A4 /* AMDSupplierProductModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		CB4509221F56CE57008FF0A4 /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				CB4509291F56D096008FF0A4 /* AMDChooseSkuView.h */,
+				CB45092A1F56D096008FF0A4 /* AMDChooseSkuView.m */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
+		EC344BDC2FB46D37929934B6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1D447BD253A1558E7A7DF283 /* Pods-ChooseMultiSku.debug.xcconfig */,
+				8FB2347A51A3202A1D1137E1 /* Pods-ChooseMultiSku.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CB4509031F56CDF0008FF0A4 /* ChooseMultiSku */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CB45091B1F56CDF0008FF0A4 /* Build configuration list for PBXNativeTarget "ChooseMultiSku" */;
+			buildPhases = (
+				E8B9D3CC7D84ADBBF976EEAE /* [CP] Check Pods Manifest.lock */,
+				CB4509001F56CDF0008FF0A4 /* Sources */,
+				CB4509011F56CDF0008FF0A4 /* Frameworks */,
+				CB4509021F56CDF0008FF0A4 /* Resources */,
+				4CB7A59E959083128CF5224D /* [CP] Embed Pods Frameworks */,
+				DBA022D500D557DB3C69482F /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ChooseMultiSku;
+			productName = ChooseMultiSku;
+			productReference = CB4509041F56CDF0008FF0A4 /* ChooseMultiSku.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CB4508FC1F56CDF0008FF0A4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = SunSet;
+				TargetAttributes = {
+					CB4509031F56CDF0008FF0A4 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = CB4508FF1F56CDF0008FF0A4 /* Build configuration list for PBXProject "ChooseMultiSku" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CB4508FB1F56CDF0008FF0A4;
+			productRefGroup = CB4509051F56CDF0008FF0A4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CB4509031F56CDF0008FF0A4 /* ChooseMultiSku */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CB4509021F56CDF0008FF0A4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB4BD5261F57AE5B004EA23C /* HiraginoSansGBW3.otf in Resources */,
+				CB4509171F56CDF0008FF0A4 /* LaunchScreen.storyboard in Resources */,
+				CB4509141F56CDF0008FF0A4 /* Assets.xcassets in Resources */,
+				CB4509121F56CDF0008FF0A4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4CB7A59E959083128CF5224D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ChooseMultiSku/Pods-ChooseMultiSku-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DBA022D500D557DB3C69482F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ChooseMultiSku/Pods-ChooseMultiSku-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E8B9D3CC7D84ADBBF976EEAE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CB4509001F56CDF0008FF0A4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB4509251F56CE5F008FF0A4 /* AMDSupplierProductModel.m in Sources */,
+				CB45090F1F56CDF0008FF0A4 /* ViewController.m in Sources */,
+				CB45092B1F56D097008FF0A4 /* AMDChooseSkuView.m in Sources */,
+				CB45090C1F56CDF0008FF0A4 /* AppDelegate.m in Sources */,
+				CB4509091F56CDF0008FF0A4 /* main.m in Sources */,
+				CB4509281F56CEE2008FF0A4 /* AMDSupplySkuModel.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CB4509101F56CDF0008FF0A4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CB4509111F56CDF0008FF0A4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CB4509151F56CDF0008FF0A4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CB4509161F56CDF0008FF0A4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CB4509191F56CDF0008FF0A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CB45091A1F56CDF0008FF0A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CB45091C1F56CDF0008FF0A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1D447BD253A1558E7A7DF283 /* Pods-ChooseMultiSku.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ChooseMultiSku/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.ChooseMultiSku;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CB45091D1F56CDF0008FF0A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8FB2347A51A3202A1D1137E1 /* Pods-ChooseMultiSku.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ChooseMultiSku/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.ChooseMultiSku;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CB4508FF1F56CDF0008FF0A4 /* Build configuration list for PBXProject "ChooseMultiSku" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB4509191F56CDF0008FF0A4 /* Debug */,
+				CB45091A1F56CDF0008FF0A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CB45091B1F56CDF0008FF0A4 /* Build configuration list for PBXNativeTarget "ChooseMultiSku" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB45091C1F56CDF0008FF0A4 /* Debug */,
+				CB45091D1F56CDF0008FF0A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CB4508FC1F56CDF0008FF0A4 /* Project object */;
+}

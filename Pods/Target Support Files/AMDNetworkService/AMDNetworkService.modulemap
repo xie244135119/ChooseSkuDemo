@@ -1,0 +1,6 @@
+framework module AMDNetworkService {
+  umbrella header "AMDNetworkService-umbrella.h"
+
+  export *
+  module * { export * }
+}

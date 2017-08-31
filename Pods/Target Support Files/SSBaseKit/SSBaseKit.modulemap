@@ -1,0 +1,6 @@
+framework module SSBaseKit {
+  umbrella header "SSBaseKit-umbrella.h"
+
+  export *
+  module * { export * }
+}

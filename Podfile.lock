@@ -1,0 +1,75 @@
+PODS:
+  - AFNetworking (3.1.0):
+    - AFNetworking/NSURLSession (= 3.1.0)
+    - AFNetworking/Reachability (= 3.1.0)
+    - AFNetworking/Security (= 3.1.0)
+    - AFNetworking/Serialization (= 3.1.0)
+    - AFNetworking/UIKit (= 3.1.0)
+  - AFNetworking/NSURLSession (3.1.0):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.1.0)
+  - AFNetworking/Security (3.1.0)
+  - AFNetworking/Serialization (3.1.0)
+  - AFNetworking/UIKit (3.1.0):
+    - AFNetworking/NSURLSession
+  - AMDNetworkService (2.0.1):
+    - AMDNetworkService/Core (= 2.0.1)
+    - AMDNetworkService/Private (= 2.0.1)
+    - AMDNetworkService/ThirdSdk (= 2.0.1)
+    - AMDNetworkService/UIKit (= 2.0.1)
+  - AMDNetworkService/Core (2.0.1):
+    - AMDNetworkService/Private
+    - AMDNetworkService/UIKit
+  - AMDNetworkService/Private (2.0.1):
+    - AMDNetworkService/ThirdSdk
+  - AMDNetworkService/ThirdSdk (2.0.1):
+    - AFNetworking (~> 3.1.0)
+  - AMDNetworkService/UIKit (2.0.1)
+  - Masonry (1.0.2)
+  - SSBaseKit (1.0.13.13):
+    - Masonry
+    - SSBaseKit/ComponentView (= 1.0.13.13)
+    - SSBaseKit/Controller (= 1.0.13.13)
+    - SSBaseKit/MJRefresh (= 1.0.13.13)
+    - SSBaseKit/Private (= 1.0.13.13)
+    - SSBaseKit/UIKit (= 1.0.13.13)
+  - SSBaseKit/ComponentView (1.0.13.13):
+    - Masonry
+    - SSBaseKit/MJRefresh
+    - SSBaseKit/Private
+    - SSBaseKit/UIKit
+  - SSBaseKit/Controller (1.0.13.13):
+    - Masonry
+    - SSBaseKit/ComponentView
+  - SSBaseKit/MJRefresh (1.0.13.13):
+    - Masonry
+  - SSBaseKit/Private (1.0.13.13):
+    - Masonry
+  - SSBaseKit/UIKit (1.0.13.13):
+    - Masonry
+    - SSBaseKit/MJRefresh
+    - SSBaseKit/Private
+  - SSBaseLib (1.0.4.6):
+    - SSBaseLib/Core (= 1.0.4.6)
+    - SSBaseLib/SSJSONModel (= 1.0.4.6)
+  - SSBaseLib/Core (1.0.4.6):
+    - SSBaseLib/SSJSONModel
+  - SSBaseLib/SSJSONModel (1.0.4.6)
+
+DEPENDENCIES:
+  - AMDNetworkService
+  - SSBaseKit
+  - SSBaseLib
+
+SPEC CHECKSUMS:
+  AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
+  AMDNetworkService: f9d9dc9fef1877b6775cc0bdeff1cdfa8ceee06e
+  Masonry: 7c429b56da9d4ee0bbb3ed77a5ea710d6a5df39e
+  SSBaseKit: 837fa117cbe4552df09834e6749ac010ebf104ca
+  SSBaseLib: 8c7c24b69fddde19e088b13e5e4d26733c445561
+
+PODFILE CHECKSUM: 2d1fdcc360ca4eba2ffb8c626dce2022778354c0
+
+COCOAPODS: 1.2.1

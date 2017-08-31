@@ -1,0 +1,6 @@
+framework module SSBaseLib {
+  umbrella header "SSBaseLib-umbrella.h"
+
+  export *
+  module * { export * }
+}

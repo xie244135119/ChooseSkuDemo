@@ -1,0 +1,4 @@
+当前为框架视图类
+
+推荐使用Cocoapods安装
+pod "SSBaseKit"
